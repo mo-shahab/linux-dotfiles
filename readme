@@ -1,0 +1,8 @@
+remove the dangling symlinks, 
+use stow for making symlinks for the configs
+i3wm stuff is in dotfiles
+my setup uses the gnome-terminal, not the alacritty one, 
+use catppuccin for color schemes basically everything uses catppuccin
+use hyprland instead of i3wm, 
+arch ricing also with the screen-layout, 
+hardcode the colors, for each item in the polybar to customize 
