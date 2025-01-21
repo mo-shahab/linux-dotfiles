@@ -20,3 +20,7 @@ vim.keymap.set('v', '<leader>y', '"+y')
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.keymap.set('i', 'jj', '<Esc>')
 
+-- Undo tree options
+vim.keymap.set('n', '<leader>u', vim.cmd.UndotreeToggle)
+
+-- Harpoon options
