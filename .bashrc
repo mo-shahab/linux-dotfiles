@@ -99,6 +99,7 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias home="cd ~"
 alias bash="nvim ~/.bashrc"
+alias py="python3"
 # this is fzf stuff
 # Set up fzf key bindings and fuzzy completion
 # eval "$(fzf)"
@@ -107,6 +108,9 @@ alias inv='nvim ./$(find -type d | fzf)'
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+# fuzzy finder stuff
+alias cdf='cd $(find . -type d -print | fzf)'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -127,8 +131,12 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# all the system wide stuff
 export PATH=$PATH:~/bin/oh-my-posh
 eval "$(~/bin/oh-my-posh init bash --config ~/bin/catppuccin_mocha.omp.json)"
+
+export PATH=$PATH:/usr/local/go/bin
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
