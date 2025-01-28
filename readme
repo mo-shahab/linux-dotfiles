@@ -3,3 +3,9 @@ window manager - i3wm
 base os - linux mint
 font - hack nerd font
 nvim package manager - lazy.nvim
+
+-- NOTE --
+checkout the branch `feat/no-alpha-neotree`to have a very subtle implementation
+of the nvim, oil.lua, telescope.lua are enough to navigate through the files,
+and alpha.lua looks really corny 
+
