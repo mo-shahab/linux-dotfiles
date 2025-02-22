@@ -134,7 +134,7 @@ fi
 
 # all the system wide stuff
 export PATH=$PATH:~/bin/oh-my-posh
-eval "$(~/bin/oh-my-posh init bash --config ~/bin/catppuccin_mocha.omp.json)"
+# eval "$(~/bin/oh-my-posh init bash --config ~/bin/catppuccin_mocha.omp.json)"
 
 export PATH=$PATH:/usr/local/go/bin
 
