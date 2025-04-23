@@ -5,6 +5,9 @@ vim.cmd("set shiftwidth=2")
 vim.g.mapleader = " "
 vim.g.background = "light"
 
+-- netrw stuff
+vim.keymap.set('n', '<leader>e', ':Ex<CR>')
+
 vim.opt.swapfile = false
 -- setting up the block cursor and other accessibilities 
 vim.opt.guicursor = "n-v-c-i:block"
