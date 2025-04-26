@@ -146,3 +146,4 @@ export PATH=/usr/local/bin:$PATH
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 alias fuck='eval $(thefuck $(fc -ln -1));'
 export PATH="/home/shahab/.nvm/versions/node/v20.15.0/bin:$PATH"
+. "$HOME/.cargo/env"
