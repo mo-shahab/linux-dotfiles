@@ -10,7 +10,9 @@ general {
         colors = true
         interval = 1
 }
+
 order += "battery 0"
+order += "volume master"
 order += "tztime local"
 
 battery 0 {
@@ -22,6 +24,13 @@ battery 0 {
         status_full = "FUL"
         path = "/sys/class/power_supply/BAT%d/uevent"
         low_threshold = 10
+}
+
+volume master{ 
+	format = "Vol: %volume"
+	device = "default"
+	mixer = "Master"
+	mixer_idx = 0
 }
 
 tztime local {

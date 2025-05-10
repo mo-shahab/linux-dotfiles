@@ -1,0 +1,10 @@
+{
+    "$schema": "https://fastfetch.dev/schema/config.json",
+    "logo": {
+        "type": "kitty",
+        "source": "/home/shahab/linux-dotfiles/fastfetch/.config/fastfetch/ghar.png",
+        "width": 40,
+        "height": 30
+    }
+}
+

@@ -1,7 +1,8 @@
+base os - arch
 terminal - kitty
+desktop manager - gdm
 window manager - i3wm
-base os - linux mint
-font - hack nerd font
+font - comic code
 nvim package manager - lazy.nvim
 
 -- NOTE --
